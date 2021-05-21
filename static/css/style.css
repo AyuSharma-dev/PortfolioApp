@@ -31,7 +31,7 @@ h6 {
 }
 
 .trailImg {
-    width: unset;
+    width: 750%;
 }
 
 
@@ -2519,7 +2519,23 @@ svg:not(:root) {
 }
 
 .cert {
-    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.cert img{
+    width: 60%;
+}
+
+.cert .imgToHover:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:150%;
+    height:auto;
+    display:block;
+    z-index:999;
 }
 
 .certText {
