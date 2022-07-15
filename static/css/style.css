@@ -2749,3 +2749,16 @@ svg:not(:root) {
 .viewmore-list::before{
     content: "\00BB";
 }
+
+.gameGif{
+    width: 40%;
+    border: 5px black solid;
+    border-radius: 6px;
+    clear: none;
+    max-width: 500px;
+}
+
+.gameText{
+    font-family: cursive; 
+    font-size: 30px !important; 
+}
