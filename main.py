@@ -54,7 +54,7 @@ def sendForApproval():
                    "Company__c":str(form.rComp.data),
                    "Comment__c":str(form.rReview.data),
                    "Image__c":'images/' + filename }
-    response = requests.post('https://ayu-dev-sharma-developer-edition.ap5.force.com/portfolio/services/apexrest/createReview',
+    response = requests.post('https://ayush84444-dev-ed.my.salesforce-sites.com/portfolioSite/services/apexrest/createReview',
                 data= dumps( reviewData, indent = 4 ),
                 headers={'content-type':'application/json'}
                  )
@@ -107,4 +107,4 @@ def deleteReview():
 
 ##Running the app
 if __name__ == '__main__':
-    app.run(host='192.168.1.12',port=5000, debug=True)
+    app.run(debug=True)##host='192.168.1.12',port=5000, 
