@@ -2759,7 +2759,6 @@ svg:not(:root) {
 }
 
 .gameText{
-    font-family: cursive; 
     font-size: 30px !important; 
     color: black !important;
 }
