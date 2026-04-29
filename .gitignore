@@ -3,3 +3,4 @@ taskList.txt
 pf-env
 __pycache__
 portfolioApp
+.venv
